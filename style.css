@@ -1,0 +1,68 @@
+
+body {
+box-sizing: border-box;
+margin: 0px;
+}
+
+nav {
+
+background-color: red;
+position: fixed;
+width: 100%;
+top: 0;
+
+}
+
+.container nav ul {
+
+margin: 0;
+padding: 100px 0;
+
+}
+
+nav ul li{ 
+
+display: inline;
+margin: 10px;
+
+}
+
+nav ul li a{
+
+color: white;
+text-decoration: none;
+font-size: 30px;
+font-weight: bold;
+transition: all .5s ease-in-out;
+padding: 10px 0 10px 0;
+
+}
+
+nav ul li a:hover{
+color: yellow;
+bottom: 10px;
+
+}
+
+.inicio {
+	text-align: right;
+}
+.container{
+width: 100%;
+max-width: 900%;
+margin: 0  auto;
+padding-bottom: 15px;
+}
+
+img{
+width: 608px;
+height: 366px;
+float:  left;
+padding-top: 49px;
+
+}
+
+p{
+padding: 196px 0 0 598px;
+text-align: left;
+}
